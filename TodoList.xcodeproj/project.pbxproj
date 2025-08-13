@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C02ECF032E43DE340033963C /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02ECF022E43DE330033963C /* ListViewModel.swift */; };
 		C09E23112E436BEC00824FB3 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09E23102E436BEC00824FB3 /* ItemModel.swift */; };
 		C0ABFFFC2E429919001A06FA /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ABFFFB2E429919001A06FA /* AddView.swift */; };
 		C0B837272E4266CF0085BAD3 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B837262E4266CF0085BAD3 /* TodoListApp.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C02ECF022E43DE330033963C /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		C09E23102E436BEC00824FB3 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		C0ABFFFB2E429919001A06FA /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		C0B837232E4266CF0085BAD3 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C02ECF012E43DD950033963C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C02ECF022E43DE330033963C /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		C09E230F2E435E8400824FB3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				C0B837262E4266CF0085BAD3 /* TodoListApp.swift */,
+				C02ECF012E43DD950033963C /* ViewModels */,
 				C09E230F2E435E8400824FB3 /* Models */,
 				C0B837342E426B940085BAD3 /* Views */,
 				C0B8372A2E4266D80085BAD3 /* Assets.xcassets */,
@@ -164,6 +175,7 @@
 			files = (
 				C09E23112E436BEC00824FB3 /* ItemModel.swift in Sources */,
 				C0ABFFFC2E429919001A06FA /* AddView.swift in Sources */,
+				C02ECF032E43DE340033963C /* ListViewModel.swift in Sources */,
 				C0B837272E4266CF0085BAD3 /* TodoListApp.swift in Sources */,
 				C0B837362E426F3D0085BAD3 /* ListView.swift in Sources */,
 				C0F840FD2E4280FF00AC3371 /* ListRowView.swift in Sources */,
